@@ -57,6 +57,27 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // PHES risk palette
+        risk: {
+          critical: "hsl(var(--risk-critical))",
+          high: "hsl(var(--risk-high))",
+          moderate: "hsl(var(--risk-moderate))",
+          low: "hsl(var(--risk-low))",
+        },
+        // PHES surface layers
+        surface: {
+          1: "hsl(var(--surface-1))",
+          2: "hsl(var(--surface-2))",
+          3: "hsl(var(--surface-3))",
+          4: "hsl(var(--surface-4))",
+        },
+        // Status
+        status: {
+          active: "hsl(var(--status-active))",
+          planned: "hsl(var(--status-planned))",
+          blocked: "hsl(var(--status-blocked))",
+          complete: "hsl(var(--status-complete))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
